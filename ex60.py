@@ -26,6 +26,6 @@ Use string.join() to join a list of strings.
 
 # get first n Fibonacci numbers, where n starts at zero
 def getFibonacciSequence(n):
-    return [fibonnaci(i) for i in range(n + 1)]
+    return ','.join([str(fibonnaci(i)) for i in range(n + 1)])
 
 print(getFibonacciSequence(7))
