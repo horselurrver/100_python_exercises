@@ -23,4 +23,5 @@ def fibonnaci(num):
         return num
     return fibonnaci(num - 1) + fibonnaci(num - 2)
 
-print(fibonnaci(7))
+if __name__ == "__main__":
+    print(fibonnaci(7))
